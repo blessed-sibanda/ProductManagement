@@ -5,5 +5,5 @@ include(':microservices:review-service')
 include(':microservices:recommendation-service')
 include(':microservices:product-composite-service')
 include 'api'
-include 'api'
+include 'util'
 
