@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-class Review {
+public class Review {
     private final int productId;
     private final int reviewId;
     private final String author;

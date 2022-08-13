@@ -40,6 +40,8 @@ public class RecommendationServiceImpl implements RecommendationService {
                 2, "Content 2", serviceUtil.getServiceAddress()));
         list.add(new Recommendation(productId, 3, "Author 1",
                 3, "Content 3", serviceUtil.getServiceAddress()));
+
+        LOG.debug("/reviews response size: {}", list.size());
         return list;
     }
 }
