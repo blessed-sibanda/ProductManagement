@@ -1,0 +1,9 @@
+server:
+  port: 7002
+
+logging:
+  level:
+    root: info
+    me.blessedsibanda.microservices: debug
+    me.blessedsibanda.util: debug
+
