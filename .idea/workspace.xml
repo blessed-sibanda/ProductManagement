@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc347d67-f700-4f06-bd24-4bd1eefdf850" name="Changes" comment="" />
+    <list default="true" id="fc347d67-f700-4f06-bd24-4bd1eefdf850" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/me/blessedsibanda/microservices/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/composite/product/ProductAggregrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/composite/product/ProductAggregrate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/core/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/core/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/core/recommendation/Recommendation.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/core/recommendation/Recommendation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/core/review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/me/blessedsibanda/api/core/review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/me/blessedsibanda/microservices/composite/product/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/me/blessedsibanda/microservices/composite/product/ProductCompositeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/test/java/me/blessedsibanda/microservices/composite/product/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/test/java/me/blessedsibanda/microservices/composite/product/ProductCompositeServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/review-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/review-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/src/main/java/me/blessedsibanda/util/http/HttpErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/me/blessedsibanda/util/http/HttpErrorInfo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +29,19 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DIFtasZ6TiS8c2I8HNXlwf857x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,9 +50,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/blessed/Workspace/Projects/ProductManagement",
+    "spring.configuration.checksum": "177b980fdf7170d379cc440d372919e4"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.ProductCompositeServiceApplication">
+    <configuration name="ProductCompositeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProductManagement.microservices.product-composite-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.blessedsibanda.microservices.composite.product.ProductCompositeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProductManagement.microservices.product-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.blessedsibanda.microservices.core.product.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProductManagement.microservices.recommendation-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.blessedsibanda.microservices.core.recommendation.RecommendationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProductManagement.microservices.review-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.blessedsibanda.microservices.core.review.ReviewServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,7 +94,23 @@
       <option name="presentableId" value="Default" />
       <updated>1660378909783</updated>
       <workItem from="1660378914031" duration="1000" />
+      <workItem from="1660410578202" duration="29000" />
+      <workItem from="1660452189936" duration="4599000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
