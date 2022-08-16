@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc347d67-f700-4f06-bd24-4bd1eefdf850" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test-em-all.bash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/test/java/me/blessedsibanda/microservices/composite/product/ProductCompositeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/test/java/me/blessedsibanda/microservices/composite/product/ProductCompositeServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/test/java/me/blessedsibanda/microservices/core/product/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/test/java/me/blessedsibanda/microservices/core/product/ProductServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/recommendation-service/src/test/java/me/blessedsibanda/microservices/core/recommendation/RecommendationServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/test/java/me/blessedsibanda/microservices/core/recommendation/RecommendationServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/review-service/src/test/java/me/blessedsibanda/microservices/core/review/ReviewServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/review-service/src/test/java/me/blessedsibanda/microservices/core/review/ReviewServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/blessed/Workspace/Projects/ProductManagement",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "177b980fdf7170d379cc440d372919e4"
   }
 }]]></component>
@@ -88,7 +86,8 @@
       <updated>1660378909783</updated>
       <workItem from="1660378914031" duration="1000" />
       <workItem from="1660410578202" duration="29000" />
-      <workItem from="1660452189936" duration="9169000" />
+      <workItem from="1660452189936" duration="10672000" />
+      <workItem from="1660617842351" duration="2215000" />
     </task>
     <servers />
   </component>
