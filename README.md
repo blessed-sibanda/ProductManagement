@@ -9,13 +9,18 @@ Management of product info, reviews and recommendations
 ./gradlew build
 ```
 
+#### Build the docker images
+```shell
+docker-compose build
+```
+
 #### Run the system tests
 ```shell
 chmod +x test-em-all.bash
 ./test-em-all.bash start stop
 ```
 
-#### Run 
+#### Run the microservices
 ```shell
 docker compose up -d
 ```
