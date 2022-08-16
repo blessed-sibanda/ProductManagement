@@ -64,7 +64,7 @@ function waitForService() {
       exit 1
     else
       sleep 3
-      echo -n ", retry #$n "
+      echo -n ", retry #$n"
     fi
   done
   echo "DONE, continues..."

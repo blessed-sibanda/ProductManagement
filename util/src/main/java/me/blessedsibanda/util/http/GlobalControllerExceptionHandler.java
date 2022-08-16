@@ -1,5 +1,6 @@
 package me.blessedsibanda.util.http;
 
+import me.blessedsibanda.api.exceptions.BadRequestException;
 import me.blessedsibanda.api.exceptions.InvalidInputException;
 import me.blessedsibanda.api.exceptions.NotFoundException;
 import org.slf4j.Logger;
@@ -27,10 +28,19 @@ public class GlobalControllerExceptionHandler {
     @ResponseStatus(HttpStatus.UNPROCESSABLE_ENTITY)
     @ExceptionHandler(InvalidInputException.class)
     @ResponseBody
-    public HttpErrorInfo handleInvalidInputException(
+    public HttpErrorInfo handleInvalidInputExceptions(
             ServerHttpRequest request, InvalidInputException ex
     ) {
         return createHttpErrorInfo(HttpStatus.UNPROCESSABLE_ENTITY, request, ex);
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(BadRequestException.class)
+    @ResponseBody
+    public HttpErrorInfo handleBadRequestExceptions(
+            ServerHttpRequest request, BadRequestException ex
+    ) {
+        return createHttpErrorInfo(HttpStatus.BAD_REQUEST, request, ex);
     }
 
     private HttpErrorInfo createHttpErrorInfo(
