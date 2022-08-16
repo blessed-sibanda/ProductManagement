@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc347d67-f700-4f06-bd24-4bd1eefdf850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-em-all.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/product-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/review-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recommendation-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/review-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +47,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/blessed/Workspace/Projects/ProductManagement",
+    "last_opened_file_path": "/home/blessed/Workspace/Projects/ProductManagement/microservices/product-composite-service",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "177b980fdf7170d379cc440d372919e4"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservices/product-composite-service" />
+      <recent name="$PROJECT_DIR$/microservices/review-service" />
+      <recent name="$PROJECT_DIR$/microservices/recommendation-service" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.ProductCompositeServiceApplication">
     <configuration name="ProductCompositeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ProductManagement.microservices.product-composite-service.main" />
@@ -87,7 +101,7 @@
       <workItem from="1660378914031" duration="1000" />
       <workItem from="1660410578202" duration="29000" />
       <workItem from="1660452189936" duration="10672000" />
-      <workItem from="1660617842351" duration="2215000" />
+      <workItem from="1660617842351" duration="4347000" />
     </task>
     <servers />
   </component>

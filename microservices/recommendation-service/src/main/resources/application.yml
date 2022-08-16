@@ -7,3 +7,10 @@ logging:
     me.blessedsibanda.microservices: debug
     me.blessedsibanda.util: debug
 
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+server:
+  port: 8080
