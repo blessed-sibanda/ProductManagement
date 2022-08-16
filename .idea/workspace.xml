@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc347d67-f700-4f06-bd24-4bd1eefdf850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/recommendation-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/review-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-em-all.bash" beforeDir="false" afterPath="$PROJECT_DIR$/test-em-all.bash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,7 @@
       <workItem from="1660378914031" duration="1000" />
       <workItem from="1660410578202" duration="29000" />
       <workItem from="1660452189936" duration="10672000" />
-      <workItem from="1660617842351" duration="4347000" />
+      <workItem from="1660617842351" duration="6035000" />
     </task>
     <servers />
   </component>
