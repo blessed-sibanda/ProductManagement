@@ -7,6 +7,10 @@ logging:
     me.blessedsibanda.microservices: debug
     me.blessedsibanda.util: debug
 
+spring:
+  data:
+    mongodb:
+      auto-index-creation: true
 ---
 spring:
   config:
