@@ -3,11 +3,13 @@ package me.blessedsibanda.api.core.recommendation;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
+@Setter
 public class Recommendation {
     private int productId;
     private int recommendationId;
