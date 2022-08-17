@@ -1,12 +1,27 @@
 server:
   port: 7003
+  error:
+    include-message: always
 
 logging:
   level:
     root: info
     me.blessedsibanda.microservices: debug
     me.blessedsibanda.util: debug
+    org.hibernate.sql: debug
+    org.hibernate.type.descriptor.sql: TRACE
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/review-db
+    username: user
+    password: pwd
+    hikari:
+      initialization-fail-timeout: 60000
+  jpa:
+    hibernate:
+      # Strongly recommend to set this property to "none" in a production environment!
+      ddl-auto: update
 ---
 spring:
   config:
