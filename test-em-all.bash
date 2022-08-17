@@ -115,6 +115,7 @@ assertEqual "\"Invalid productId: -1\"" "$(echo $RESPONSE | jq .message)"
 
 # Verify that a 400 (Bad Request) error is returned for productId that is not a number
 assertCurl 400 "http://$HOST:$PORT/product-composite/invalidProductId -s"
+assertEqual "\"Type mismatch.\"" "$(echo $RESPONSE | jq .message)"
 
 # Verify access to Swagger and Open API URLs
 echo "Swagger/OpenAPI tests"
