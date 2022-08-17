@@ -146,6 +146,16 @@ public class ProductCompositeIntegration implements ProductService,
         }
     }
 
+    @Override
+    public Review createReview(Review body) {
+        return null;
+    }
+
+    @Override
+    public void deleteReviews(int productId) {
+
+    }
+
     private String getErrorMessage(HttpClientErrorException ex) {
         try {
             return mapper.readValue(ex.getResponseBodyAsString(),
