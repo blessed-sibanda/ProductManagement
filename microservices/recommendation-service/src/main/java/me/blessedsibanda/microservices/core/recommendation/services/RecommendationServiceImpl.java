@@ -36,9 +36,9 @@ public class RecommendationServiceImpl implements RecommendationService {
         List<Recommendation> list = new ArrayList<>();
         list.add(new Recommendation(productId, 1, "Author 1",
                 1, "Content 1", serviceUtil.getServiceAddress()));
-        list.add(new Recommendation(productId, 2, "Author 1",
+        list.add(new Recommendation(productId, 2, "Author 2",
                 2, "Content 2", serviceUtil.getServiceAddress()));
-        list.add(new Recommendation(productId, 3, "Author 1",
+        list.add(new Recommendation(productId, 3, "Author 3",
                 3, "Content 3", serviceUtil.getServiceAddress()));
 
         LOG.debug("/reviews response size: {}", list.size());

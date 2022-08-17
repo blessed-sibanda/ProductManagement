@@ -116,6 +116,15 @@ assertEqual "\"Invalid productId: -1\"" "$(echo $RESPONSE | jq .message)"
 # Verify that a 400 (Bad Request) error is returned for productId that is not a number
 assertCurl 400 "http://$HOST:$PORT/product-composite/invalidProductId -s"
 
+# Verify access to Swagger and Open API URLs
+echo "Swagger/OpenAPI tests"
+assertCurl 302 "-s http://$HOST:$PORT/openapi/swagger-ui.html"
+assertCurl 200 "-sL http://$HOST:$PORT/openapi/swagger-ui.html"
+assertCurl 200 "-s  http://$HOST:$PORT/openapi/webjars/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config"
+assertCurl 200 "-s  http://$HOST:$PORT/openapi/v3/api-docs"
+assertEqual "3.0.1" "$(echo $RESPONSE | jq -r .openapi)"
+assertCurl 200 "-s  http://$HOST:$PORT/openapi/v3/api-docs.yaml"
+
 if [[ $@ == *"stop"* ]]; then
   echo "We are done, stopping the test environment..."
   echo "$ docker compose down"
